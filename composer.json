@@ -3,7 +3,7 @@
   "license": "MIT",
   "type": "project",
   "version": "1.0.0",
-  "minimum-stability": "stable",
+  "minimum-stability": "dev",
   "authors": [
     {
       "name": "Dmitry Emelyanov",
@@ -16,7 +16,8 @@
   ],
   "require": {
     "mpcmf/mpcmf-core": "dev-master",
-    "mpcmf/mpcmf-console": "dev-master"
+    "mpcmf/mpcmf-console": "dev-master",
+    "mpcmf/mpcmf-web": "dev-master"
   },
   "autoload": {
     "psr-4": {

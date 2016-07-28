@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ddb43ac9103426149fe071a06d6cbb19",
-    "content-hash": "705dfaeb21d80509bad09d2898ec88a4",
+    "hash": "d7be680ba098f8e1ad8bf0ab9dd2ef71",
+    "content-hash": "238bf97065a2a61cd3154191381e43db",
     "packages": [
         {
             "name": "evenement/evenement",
@@ -438,6 +438,49 @@
             "time": "2016-06-23 13:06:04"
         },
         {
+            "name": "mpcmf/mpcmf-web",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mpcmf/mpcmf-web.git",
+                "reference": "736a75636946fa54e130d202d6c6705c1eeda019"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mpcmf/mpcmf-web/zipball/736a75636946fa54e130d202d6c6705c1eeda019",
+                "reference": "736a75636946fa54e130d202d6c6705c1eeda019",
+                "shasum": ""
+            },
+            "require": {
+                "mpcmf/mpcmf-console": "dev-master",
+                "mpcmf/mpcmf-core": "dev-master",
+                "react/socket-client": "^0.4.0@dev"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "mpcmf\\apps\\mpcmfWeb\\": "src/apps/mpcmfWeb/",
+                    "mpcmf\\modules\\": "src/apps/mpcmfWeb/modules",
+                    "mpcmf\\system\\": "src/apps/mpcmfWeb/system"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Gregory Ostrovsky",
+                    "email": "greevex@gmail.com"
+                },
+                {
+                    "name": "Dmitriy Emelyanov",
+                    "email": "gilberg.vrn@gmail.com"
+                }
+            ],
+            "time": "2016-06-06 16:37:31"
+        },
+        {
             "name": "phpdocumentor/reflection-docblock",
             "version": "2.0.4",
             "source": {
@@ -643,6 +686,82 @@
             "time": "2016-01-06 21:40:42"
         },
         {
+            "name": "react/cache",
+            "version": "v0.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/reactphp/cache.git",
+                "reference": "558f614891341b1d817a8cdf9a358948ec49638f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/reactphp/cache/zipball/558f614891341b1d817a8cdf9a358948ec49638f",
+                "reference": "558f614891341b1d817a8cdf9a358948ec49638f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "react/promise": "~2.0|~1.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "React\\Cache\\": "src\\"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Async caching.",
+            "keywords": [
+                "cache"
+            ],
+            "time": "2016-02-25 18:17:16"
+        },
+        {
+            "name": "react/dns",
+            "version": "v0.4.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/reactphp/dns.git",
+                "reference": "62f6201e487df8add209cc42f05ffca33ee1ba05"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/reactphp/dns/zipball/62f6201e487df8add209cc42f05ffca33ee1ba05",
+                "reference": "62f6201e487df8add209cc42f05ffca33ee1ba05",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "react/cache": "~0.4.0|~0.3.0",
+                "react/promise": "~2.0|~1.1",
+                "react/socket": "~0.4.0|~0.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "React\\Dns\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Async DNS resolver.",
+            "keywords": [
+                "dns",
+                "dns-resolver"
+            ],
+            "time": "2016-02-24 23:45:36"
+        },
+        {
             "name": "react/event-loop",
             "version": "v0.4.2",
             "source": {
@@ -807,6 +926,48 @@
                 "Socket"
             ],
             "time": "2016-03-01 20:10:35"
+        },
+        {
+            "name": "react/socket-client",
+            "version": "0.4.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/reactphp/socket-client.git",
+                "reference": "a25539f2cd30b4be56e35de9f96f6aa744246cc2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/reactphp/socket-client/zipball/a25539f2cd30b4be56e35de9f96f6aa744246cc2",
+                "reference": "a25539f2cd30b4be56e35de9f96f6aa744246cc2",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0",
+                "react/dns": "0.4.*",
+                "react/event-loop": "0.4.*",
+                "react/promise": "~2.0",
+                "react/stream": "0.4.*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "React\\SocketClient\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Async connector to open TCP/IP and SSL/TLS based connections.",
+            "keywords": [
+                "Socket"
+            ],
+            "time": "2016-03-27 18:31:39"
         },
         {
             "name": "react/stream",
@@ -1281,7 +1442,8 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "mpcmf/mpcmf-core": 20,
-        "mpcmf/mpcmf-console": 20
+        "mpcmf/mpcmf-console": 20,
+        "mpcmf/mpcmf-web": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
