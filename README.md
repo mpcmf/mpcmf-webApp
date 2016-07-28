@@ -71,7 +71,7 @@ apps                          # directory with all project applications
 How fast is included author?
 For example: info api `/MODULE/ENTITY/api.getInfo`  1.9ms
 
-[[https://habrastorage.org/files/1c6/c4e/2c7/1c6c4e2c7b2745fc89b0d885683a56c9.png|alt=Image]]
+![Image](https://habrastorage.org/files/1c6/c4e/2c7/1c6c4e2c7b2745fc89b0d885683a56c9.png)
 
 Contact
 ---
