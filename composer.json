@@ -1,0 +1,26 @@
+{
+  "name": "mpcmf/mpcmf-app",
+  "license": "MIT",
+  "type": "project",
+  "version": "1.0.0",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "Dmitry Emelyanov",
+      "email": "gilberg.vrn@gmail.com"
+    },
+    {
+      "name": "Gregory Ostrovsky",
+      "email": "greevex@gmail.com"
+    }
+  ],
+  "require": {
+    "mpcmf/mpcmf-core": "dev-master",
+    "mpcmf/mpcmf-console": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "mpcmf\\apps\\": "src/apps/"
+    }
+  }
+}

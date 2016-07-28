@@ -1,0 +1,60 @@
+#!/usr/bin/env php
+<?php
+
+namespace mpcmf\bin;
+
+use mpcmf\system\application\applicationInstance;
+use mpcmf\system\configuration\config;
+use mpcmf\system\io\log;
+
+$startTime = microtime(true);
+
+define('APP_NAME', 'mpcmf');
+
+$currentPath = __DIR__;
+$appRoot = dirname($currentPath);
+
+if (!file_exists($appRoot) || !is_dir($appRoot)) {
+
+    error_log("[ ERROR ]\nUnable to find project root in [{$appRoot}]\n - current path: [{$currentPath}]");
+    exit(1);
+}
+
+define('APP_ROOT', $appRoot);
+
+$loader = APP_ROOT . '/loader.php';
+if (file_exists($loader)) {
+    require_once $loader;
+} else {
+    require_once APP_ROOT . '/vendor/autoload.php';
+    require_once APP_ROOT . '/environment.php';
+}
+
+if(empty($argv[1])) {
+    error_log("=== Error! ===\nUsage: " . basename(__FILE__) . ' apps/defaultApp/console.php');
+    exit(1);
+}
+
+$appPath = APP_ROOT . DIRECTORY_SEPARATOR . $argv[1];
+
+if(!file_exists($appPath) || !is_readable($appPath)) {
+    error_log("=== Error! ===\nApplication not found at {$appPath}");
+    exit(1);
+}
+
+$appName = basename($argv[1], '.php');
+
+unset($argv[1]);
+$argv = array_values($argv);
+$_SERVER['argv'] = $argv;
+$appFullClassPath = dirname(str_replace(APP_ROOT, APP_NAME, $appPath)) . DIRECTORY_SEPARATOR . $appName;
+
+$appFullClass = str_replace(DIRECTORY_SEPARATOR, config::NAMESPACE_SEPARATOR, preg_replace('/\/vendor\/[^\/]+\/[^\/]+\/src/ui', '', $appFullClassPath));
+
+$application = applicationInstance::getInstance();
+$application->setApplication(new $appFullClass());
+$application->run();
+
+if(log::factory()->isHandling(log::DEBUG)) {
+    error_log("== DEBUG ==\n - total time: " . number_format(microtime(true) - $startTime, 4) . ' sec');
+}
