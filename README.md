@@ -28,7 +28,7 @@ bin/mpcmf apps/defaultApp/console.php
 Web server starts as single console command
 ```
 # Single process server
-bin/mpcmf apps/defaultApp/console.php webServer:run --bind 0.0.0.0--ports 8082
+bin/mpcmf apps/defaultApp/console.php webServer:run --bind 0.0.0.0 --ports 8082
 
 # Multi processes/ports server for usage with balancer (e.g. haProxy, nginx)
 bin/mpcmf apps/defaultApp/console.php webServer:run --bind 127.0.0.1 --ports 8082,8083,8084,8085
