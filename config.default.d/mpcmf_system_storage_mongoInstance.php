@@ -24,6 +24,12 @@ config::setConfig(__FILE__, [
 ]);
 
 config::setConfig(__FILE__, [
+    'default' => [
+        'uri' => 'mongodb://localhost',
+        'options' => [
+            'connect' => true,
+        ]
+    ],
     'localhost' => [
         'uri' => 'mongodb://localhost',
         'options' => [

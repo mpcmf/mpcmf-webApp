@@ -443,12 +443,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mpcmf/mpcmf-web.git",
-                "reference": "2ea9cf1ffa35da71a3d6260952f1520ec9e441c8"
+                "reference": "62c60066b8d4e1c26cb7f2f8e3b98af9ee9bfab4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mpcmf/mpcmf-web/zipball/2ea9cf1ffa35da71a3d6260952f1520ec9e441c8",
-                "reference": "2ea9cf1ffa35da71a3d6260952f1520ec9e441c8",
+                "url": "https://api.github.com/repos/mpcmf/mpcmf-web/zipball/62c60066b8d4e1c26cb7f2f8e3b98af9ee9bfab4",
+                "reference": "62c60066b8d4e1c26cb7f2f8e3b98af9ee9bfab4",
                 "shasum": ""
             },
             "require": {
@@ -478,7 +478,7 @@
                     "email": "gilberg.vrn@gmail.com"
                 }
             ],
-            "time": "2016-07-28 12:55:25"
+            "time": "2016-07-28 14:10:58"
         },
         {
             "name": "phpdocumentor/reflection-docblock",
