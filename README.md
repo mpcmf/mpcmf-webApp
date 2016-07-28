@@ -28,13 +28,13 @@ bin/mpcmf apps/defaultApp/console.php
 Web server starts as single console command
 ```
 # Single process server
-bin/mpcmf apps/defaultApp/console.php server:run --bind 0.0.0.0--ports 8082
+bin/mpcmf apps/defaultApp/console.php webServer:run --bind 0.0.0.0--ports 8082
 
 # Multi processes/ports server for usage with balancer (e.g. haProxy, nginx)
-bin/mpcmf apps/defaultApp/console.php server:run --bind 127.0.0.1 --ports 8082,8083,8084,8085
+bin/mpcmf apps/defaultApp/console.php webServer:run --bind 127.0.0.1 --ports 8082,8083,8084,8085
 
 # Multi processes/ports server with included balancer (8080 - master port)
-bin/mpcmf apps/defaultApp/console.php server:run --bind 127.0.0.1 --ports 8082,8083,8084,8085 -m 0.0.0.0:8080
+bin/mpcmf apps/defaultApp/console.php webServer:run --bind 127.0.0.1 --ports 8082,8083,8084,8085 -m 0.0.0.0:8080
 ```
 
 Do not forget to clean up cache after some updates! By default in `/tmp/mpcmf`
