@@ -10,7 +10,7 @@ Installation
 ---
 install base application structure
 ```
-composer.phar create-project mpcmf/mpcmf-webApp .
+composer.phar create-project mpcmf/mpcmf-web-app:dev-master .
 ```
 
 then install tested requirements
