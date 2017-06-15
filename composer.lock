@@ -264,12 +264,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mpcmf/mpcmf-console.git",
-                "reference": "dc6a3a63421042c4461075d6f78cffaaf7f87df1"
+                "reference": "d8b4f97065222372d7efb2107bee9a85b1051683"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mpcmf/mpcmf-console/zipball/dc6a3a63421042c4461075d6f78cffaaf7f87df1",
-                "reference": "dc6a3a63421042c4461075d6f78cffaaf7f87df1",
+                "url": "https://api.github.com/repos/mpcmf/mpcmf-console/zipball/d8b4f97065222372d7efb2107bee9a85b1051683",
+                "reference": "d8b4f97065222372d7efb2107bee9a85b1051683",
                 "shasum": ""
             },
             "require": {
@@ -298,7 +298,7 @@
                     "email": "gilberg.vrn@gmail.com"
                 }
             ],
-            "time": "2016-06-22 16:31:26"
+            "time": "2017-06-09 15:23:23"
         },
         {
             "name": "mpcmf/mpcmf-core",
@@ -306,12 +306,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mpcmf/mpcmf-core.git",
-                "reference": "39bc5d0bf5a1074735d050e9d32e379234eba5d7"
+                "reference": "cdedfe3e6aefeae8b3aa87acac1d0f0424138acc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mpcmf/mpcmf-core/zipball/39bc5d0bf5a1074735d050e9d32e379234eba5d7",
-                "reference": "39bc5d0bf5a1074735d050e9d32e379234eba5d7",
+                "url": "https://api.github.com/repos/mpcmf/mpcmf-core/zipball/cdedfe3e6aefeae8b3aa87acac1d0f0424138acc",
+                "reference": "cdedfe3e6aefeae8b3aa87acac1d0f0424138acc",
                 "shasum": ""
             },
             "require": {
@@ -321,7 +321,6 @@
                 "php": ">=5.5.10",
                 "phpdocumentor/reflection-docblock": "~2.0",
                 "phpmailer/phpmailer": "dev-master",
-                "react/http": "^0.4",
                 "slim/slim": "2.*",
                 "smarty/smarty": "3.1.27",
                 "symfony/console": "~2.6",
@@ -369,7 +368,7 @@
                 "smarty",
                 "threads"
             ],
-            "time": "2017-06-09 13:03:59"
+            "time": "2017-06-13 15:19:57"
         },
         {
             "name": "mpcmf/mpcmf-web",
@@ -377,17 +376,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mpcmf/mpcmf-web.git",
-                "reference": "e913b57bd1f9f219063bfa6e41511f5c5a97e82a"
+                "reference": "b114fb6997058827149a0302de368627bfeaa1ee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mpcmf/mpcmf-web/zipball/e913b57bd1f9f219063bfa6e41511f5c5a97e82a",
-                "reference": "e913b57bd1f9f219063bfa6e41511f5c5a97e82a",
+                "url": "https://api.github.com/repos/mpcmf/mpcmf-web/zipball/b114fb6997058827149a0302de368627bfeaa1ee",
+                "reference": "b114fb6997058827149a0302de368627bfeaa1ee",
                 "shasum": ""
             },
             "require": {
                 "mpcmf/mpcmf-console": "dev-master",
                 "mpcmf/mpcmf-core": "dev-master",
+                "react/http": "dev-master#545723837ceed39cbd81e479ab98198bb2c5893b",
                 "react/socket-client": "^0.4.0@dev"
             },
             "type": "library",
@@ -412,7 +412,7 @@
                     "email": "gilberg.vrn@gmail.com"
                 }
             ],
-            "time": "2016-08-03 10:35:07"
+            "time": "2017-06-13 16:46:16"
         },
         {
             "name": "phpdocumentor/reflection-docblock",
@@ -469,12 +469,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPMailer/PHPMailer.git",
-                "reference": "699d57dc01914d3b16ea3a2dbeee87b2e08e3377"
+                "reference": "29b2042fd1a5cbb987a26f0db1b0ba5af302f920"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/699d57dc01914d3b16ea3a2dbeee87b2e08e3377",
-                "reference": "699d57dc01914d3b16ea3a2dbeee87b2e08e3377",
+                "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/29b2042fd1a5cbb987a26f0db1b0ba5af302f920",
+                "reference": "29b2042fd1a5cbb987a26f0db1b0ba5af302f920",
                 "shasum": ""
             },
             "require": {
@@ -538,7 +538,7 @@
                 }
             ],
             "description": "PHPMailer is a full-featured email creation and transfer class for PHP",
-            "time": "2017-05-31 05:26:14"
+            "time": "2017-06-13 11:59:32"
         },
         {
             "name": "psr/http-message",
@@ -756,28 +756,83 @@
             "time": "2017-04-27 10:56:23"
         },
         {
+             "name": "guzzlehttp/psr7",
+             "version": "1.3.1",
+             "source": {
+                 "type": "git",
+                 "url": "https://github.com/guzzle/psr7.git",
+                 "reference": "5c6447c9df362e8f8093bda8f5d8873fe5c7f65b"
+             },
+             "dist": {
+                 "type": "zip",
+                 "url": "https://api.github.com/repos/guzzle/psr7/zipball/5c6447c9df362e8f8093bda8f5d8873fe5c7f65b",
+                 "reference": "5c6447c9df362e8f8093bda8f5d8873fe5c7f65b",
+                 "shasum": ""
+             },
+             "require": {
+                 "php": ">=5.4.0",
+                 "psr/http-message": "~1.0"
+             },
+             "provide": {
+                 "psr/http-message-implementation": "1.0"
+             },
+             "require-dev": {
+                 "phpunit/phpunit": "~4.0"
+             },
+             "type": "library",
+             "extra": {
+                 "branch-alias": {
+                     "dev-master": "1.4-dev"
+                 }
+             },
+             "autoload": {
+                 "psr-4": {
+                     "GuzzleHttp\\Psr7\\": "src/"
+                 },
+                 "files": [
+                     "src/functions_include.php"
+                 ]
+             },
+             "notification-url": "https://packagist.org/downloads/",
+             "license": [
+                 "MIT"
+             ],
+             "authors": [
+                 {
+                     "name": "Michael Dowling",
+                     "email": "mtdowling@gmail.com",
+                     "homepage": "https://github.com/mtdowling"
+                 }
+             ],
+             "description": "PSR-7 message implementation",
+             "keywords": [
+                 "http",
+                 "message",
+                 "stream",
+                 "uri"
+             ],
+             "time": "2016-06-24 23:00:38"
+        },
+        {
             "name": "react/http",
-            "version": "0.4.x-dev",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactphp/http.git",
-                "reference": "aac319bd789cbc7b478d42cde2d03596e97e3222"
+                "reference": "545723837ceed39cbd81e479ab98198bb2c5893b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/reactphp/http/zipball/aac319bd789cbc7b478d42cde2d03596e97e3222",
-                "reference": "aac319bd789cbc7b478d42cde2d03596e97e3222",
+                "url": "https://api.github.com/repos/reactphp/http/zipball/545723837ceed39cbd81e479ab98198bb2c5893b",
+                "reference": "545723837ceed39cbd81e479ab98198bb2c5893b",
                 "shasum": ""
             },
             "require": {
-                "evenement/evenement": "^2.0 || ^1.0",
-                "php": ">=5.3.0",
+                "php": ">=5.4.0",
+                "guzzlehttp/psr7": "^1.0",
                 "react/socket": "^0.4",
-                "react/stream": "^0.4.4",
-                "ringcentral/psr7": "^1.2"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^4.8.10||^5.0"
+                "react/stream": "^0.4",
+                "evenement/evenement": "^2.0"
             },
             "type": "library",
             "autoload": {
@@ -789,11 +844,16 @@
             "license": [
                 "MIT"
             ],
-            "description": "Library for building an evented http server.",
+            "description": "Event-driven, streaming plaintext HTTP and secure HTTPS server for ReactPHP",
             "keywords": [
-                "http"
+                "event-driven",
+                "http",
+                "https",
+                "reactphp",
+                "server",
+                "streaming"
             ],
-            "time": "2017-02-13 14:12:50"
+            "time": "2015-12-28 14:55:30"
         },
         {
             "name": "react/promise",
@@ -893,43 +953,43 @@
         },
         {
             "name": "react/socket",
-            "version": "0.4.x-dev",
+            "version": "v0.4.8",
             "source": {
-                "type": "git",
-                "url": "https://github.com/reactphp/socket.git",
-                "reference": "cf074e53c974df52388ebd09710a9018894745d2"
+              "type": "git",
+              "url": "https://github.com/reactphp/socket.git",
+              "reference": "cf074e53c974df52388ebd09710a9018894745d2"
             },
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/reactphp/socket/zipball/cf074e53c974df52388ebd09710a9018894745d2",
-                "reference": "cf074e53c974df52388ebd09710a9018894745d2",
-                "shasum": ""
+              "type": "zip",
+              "url": "https://api.github.com/repos/reactphp/socket/zipball/cf074e53c974df52388ebd09710a9018894745d2",
+              "reference": "cf074e53c974df52388ebd09710a9018894745d2",
+              "shasum": ""
             },
             "require": {
-                "evenement/evenement": "~2.0|~1.0",
-                "php": ">=5.3.0",
-                "react/event-loop": "0.4.*|0.3.*",
-                "react/promise": "^2.0 || ^1.1",
-                "react/stream": "^0.4.5"
+              "evenement/evenement": "~2.0|~1.0",
+              "php": ">=5.3.0",
+              "react/event-loop": "0.4.*|0.3.*",
+              "react/promise": "^2.0 || ^1.1",
+              "react/stream": "^0.4.5"
             },
             "require-dev": {
-                "clue/block-react": "^1.1",
-                "phpunit/phpunit": "~4.8",
-                "react/socket-client": "^0.5.1"
+              "clue/block-react": "^1.1",
+              "phpunit/phpunit": "~4.8",
+              "react/socket-client": "^0.5.1"
             },
             "type": "library",
             "autoload": {
-                "psr-4": {
-                    "React\\Socket\\": "src"
-                }
+              "psr-4": {
+                  "React\\Socket\\": "src"
+              }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "MIT"
+              "MIT"
             ],
             "description": "Async, streaming plaintext TCP/IP and secure TLS socket server for React PHP",
             "keywords": [
-                "Socket"
+              "Socket"
             ],
             "time": "2017-01-26 09:23:38"
         },
@@ -1303,12 +1363,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/filesystem.git",
-                "reference": "19c11158da8d110cc5289c063bf2ec4cc1ce9e7c"
+                "reference": "74bf6bf981ae99e831aada2246adefd10dd760e7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/filesystem/zipball/19c11158da8d110cc5289c063bf2ec4cc1ce9e7c",
-                "reference": "19c11158da8d110cc5289c063bf2ec4cc1ce9e7c",
+                "url": "https://api.github.com/repos/symfony/filesystem/zipball/74bf6bf981ae99e831aada2246adefd10dd760e7",
+                "reference": "74bf6bf981ae99e831aada2246adefd10dd760e7",
                 "shasum": ""
             },
             "require": {
@@ -1344,7 +1404,7 @@
             ],
             "description": "Symfony Filesystem Component",
             "homepage": "https://symfony.com",
-            "time": "2017-05-28 14:07:33"
+            "time": "2017-06-14 00:55:24"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -1352,12 +1412,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "adebc086600bc93b45d8d6721c8f21088a2be4dc"
+                "reference": "7c8fae0ac1d216eb54349e6a8baa57d515fe8803"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/adebc086600bc93b45d8d6721c8f21088a2be4dc",
-                "reference": "adebc086600bc93b45d8d6721c8f21088a2be4dc",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/7c8fae0ac1d216eb54349e6a8baa57d515fe8803",
+                "reference": "7c8fae0ac1d216eb54349e6a8baa57d515fe8803",
                 "shasum": ""
             },
             "require": {
@@ -1369,7 +1429,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.3-dev"
+                    "dev-master": "1.5-dev"
                 }
             },
             "autoload": {
@@ -1403,7 +1463,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2017-05-29 15:51:17"
+            "time": "2017-06-14 15:44:48"
         },
         {
             "name": "wingu/code-generator",
