@@ -365,12 +365,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mpcmf/mpcmf-core.git",
-                "reference": "cdedfe3e6aefeae8b3aa87acac1d0f0424138acc"
+                "reference": "1bba7f7a024c4468c5d1bddd5f0d15c4b255461f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mpcmf/mpcmf-core/zipball/cdedfe3e6aefeae8b3aa87acac1d0f0424138acc",
-                "reference": "cdedfe3e6aefeae8b3aa87acac1d0f0424138acc",
+                "url": "https://api.github.com/repos/mpcmf/mpcmf-core/zipball/1bba7f7a024c4468c5d1bddd5f0d15c4b255461f",
+                "reference": "1bba7f7a024c4468c5d1bddd5f0d15c4b255461f",
                 "shasum": ""
             },
             "require": {
@@ -427,7 +427,7 @@
                 "smarty",
                 "threads"
             ],
-            "time": "2017-06-13 15:19:57"
+            "time": "2017-06-16 11:02:59"
         },
         {
             "name": "mpcmf/mpcmf-web",
