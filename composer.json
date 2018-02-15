@@ -15,9 +15,9 @@
     }
   ],
   "require": {
-    "mpcmf/mpcmf-core": "dev-master",
-    "mpcmf/mpcmf-console": "dev-master",
-    "mpcmf/mpcmf-web": "dev-master"
+    "mpcmf/mpcmf-core": "dev-php7",
+    "mpcmf/mpcmf-console": "dev-php7",
+    "mpcmf/mpcmf-web": "dev-php7"
   },
   "autoload": {
     "psr-4": {
