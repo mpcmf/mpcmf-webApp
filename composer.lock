@@ -323,12 +323,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mpcmf/mpcmf-console.git",
-                "reference": "d8b4f97065222372d7efb2107bee9a85b1051683"
+                "reference": "6d3dfdd3aef3b90ae13204969e8ba809c3e359f7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mpcmf/mpcmf-console/zipball/d8b4f97065222372d7efb2107bee9a85b1051683",
-                "reference": "d8b4f97065222372d7efb2107bee9a85b1051683",
+                "url": "https://api.github.com/repos/mpcmf/mpcmf-console/zipball/6d3dfdd3aef3b90ae13204969e8ba809c3e359f7",
+                "reference": "6d3dfdd3aef3b90ae13204969e8ba809c3e359f7",
                 "shasum": ""
             },
             "require": {
@@ -357,7 +357,7 @@
                     "email": "gilberg.vrn@gmail.com"
                 }
             ],
-            "time": "2017-06-09 15:23:23"
+            "time": "2018-03-23 13:32:37"
         },
         {
             "name": "mpcmf/mpcmf-core",
@@ -435,12 +435,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mpcmf/mpcmf-web.git",
-                "reference": "007d5c56de8a66747fa220ed24ea190f616b6881"
+                "reference": "187109c36ade549391d5c1f46fa24cbb334af485"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mpcmf/mpcmf-web/zipball/007d5c56de8a66747fa220ed24ea190f616b6881",
-                "reference": "007d5c56de8a66747fa220ed24ea190f616b6881",
+                "url": "https://api.github.com/repos/mpcmf/mpcmf-web/zipball/187109c36ade549391d5c1f46fa24cbb334af485",
+                "reference": "187109c36ade549391d5c1f46fa24cbb334af485",
                 "shasum": ""
             },
             "require": {
@@ -472,7 +472,7 @@
                     "email": "gilberg.vrn@gmail.com"
                 }
             ],
-            "time": "2017-06-16 16:31:14"
+            "time": "2018-08-29 11:46:46"
         },
         {
             "name": "phpdocumentor/reflection-docblock",
@@ -1048,6 +1048,7 @@
             "keywords": [
                 "Socket"
             ],
+            "abandoned": "react/socket",
             "time": "2017-01-09 08:31:32"
         },
         {
