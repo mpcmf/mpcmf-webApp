@@ -519,12 +519,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mpcmf/mpcmf-core.git",
-                "reference": "18157bb0dd9255e8d97a85601cd5cc914c616486"
+                "reference": "27067313341fcf080919fabaaaefc671eed96cde"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mpcmf/mpcmf-core/zipball/18157bb0dd9255e8d97a85601cd5cc914c616486",
-                "reference": "18157bb0dd9255e8d97a85601cd5cc914c616486",
+                "url": "https://api.github.com/repos/mpcmf/mpcmf-core/zipball/27067313341fcf080919fabaaaefc671eed96cde",
+                "reference": "27067313341fcf080919fabaaaefc671eed96cde",
                 "shasum": ""
             },
             "require": {
@@ -599,7 +599,7 @@
                 "issues": "https://github.com/greevex/mpcmf-core/issues?state=open",
                 "source": "https://github.com/greevex/mpcmf-core"
             },
-            "time": "2022-03-05T13:30:17+00:00"
+            "time": "2022-08-01T16:14:43+00:00"
         },
         {
             "name": "mpcmf/mpcmf-signal-handler",
@@ -1734,20 +1734,24 @@
         },
         {
             "name": "smarty/smarty",
-            "version": "v3.1.27",
+            "version": "v3.1.45",
             "source": {
                 "type": "git",
                 "url": "https://github.com/smarty-php/smarty.git",
-                "reference": "4537d8aae6c4a26f5439bc3a05d3437d25c2c4d2"
+                "reference": "a2713ab89e6d773bc4819f11857af7f6b2e353a9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/smarty-php/smarty/zipball/4537d8aae6c4a26f5439bc3a05d3437d25c2c4d2",
-                "reference": "4537d8aae6c4a26f5439bc3a05d3437d25c2c4d2",
+                "url": "https://api.github.com/repos/smarty-php/smarty/zipball/a2713ab89e6d773bc4819f11857af7f6b2e353a9",
+                "reference": "a2713ab89e6d773bc4819f11857af7f6b2e353a9",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^7.5 || ^6.5 || ^5.7 || ^4.8",
+                "smarty/smarty-lexer": "^3.1"
             },
             "type": "library",
             "extra": {
@@ -1757,9 +1761,7 @@
             },
             "autoload": {
                 "classmap": [
-                    "libs/Smarty.class.php",
-                    "libs/SmartyBC.class.php",
-                    "libs/sysplugins/"
+                    "libs/"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1785,7 +1787,13 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2015-06-18T00:55:59+00:00"
+            "support": {
+                "forum": "http://www.smarty.net/forums/",
+                "irc": "irc://irc.freenode.org/smarty",
+                "issues": "https://github.com/smarty-php/smarty/issues",
+                "source": "https://github.com/smarty-php/smarty/tree/v3.1.45"
+            },
+            "time": "2022-05-17T12:57:52+00:00"
         },
         {
             "name": "symfony/console",
