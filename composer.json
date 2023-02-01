@@ -17,8 +17,7 @@
   "require": {
     "mpcmf/mpcmf-core": "dev-master",
     "mpcmf/mpcmf-console": "dev-master",
-    "mpcmf/mpcmf-web": "dev-master",
-    "phpseclib/mcrypt_compat": "dev-master"
+    "mpcmf/mpcmf-web": "dev-master"
   },
   "autoload": {
     "psr-4": {
