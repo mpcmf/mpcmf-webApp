@@ -14,6 +14,9 @@
       "email": "greevex@gmail.com"
     }
   ],
+  "repositories": [
+    { "type": "vcs", "url": "http://github.com/infostars/Slim" }
+  ],
   "require": {
     "mpcmf/mpcmf-core": "dev-master",
     "mpcmf/mpcmf-console": "dev-master",

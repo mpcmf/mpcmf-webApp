@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "600dfa43d4524e0a832607ddb3831a4e",
+    "content-hash": "4eb1891f029a33a57fd865e693549d73",
     "packages": [
         {
             "name": "alcaeus/mongo-php-adapter",
@@ -1647,13 +1647,13 @@
             "version": "2.x-dev",
             "source": {
                 "type": "git",
-                "url": "https://github.com/slimphp/Slim.git",
-                "reference": "7d3308bb8b41238941c0cbf549ef103c1bd69a30"
+                "url": "https://github.com/infostars/Slim.git",
+                "reference": "0e6d3573c4c525be80ffc4a3e66b7189d4af1e3a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/slimphp/Slim/zipball/7d3308bb8b41238941c0cbf549ef103c1bd69a30",
-                "reference": "7d3308bb8b41238941c0cbf549ef103c1bd69a30",
+                "url": "https://api.github.com/repos/infostars/Slim/zipball/0e6d3573c4c525be80ffc4a3e66b7189d4af1e3a",
+                "reference": "0e6d3573c4c525be80ffc4a3e66b7189d4af1e3a",
                 "shasum": ""
             },
             "require": {
@@ -1669,7 +1669,6 @@
                     "Slim": "."
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1687,7 +1686,20 @@
                 "rest",
                 "router"
             ],
-            "time": "2017-01-07T15:23:35+00:00"
+            "support": {
+                "source": "https://github.com/infostars/Slim/tree/2.x"
+            },
+            "funding": [
+                {
+                    "type": "open_collective",
+                    "url": "https://opencollective.com/slimphp"
+                },
+                {
+                    "type": "tidelift",
+                    "url": "https://tidelift.com/funding/github/packagist/slim/slim"
+                }
+            ],
+            "time": "2022-08-12T15:32:34+00:00"
         },
         {
             "name": "smarty/smarty",
